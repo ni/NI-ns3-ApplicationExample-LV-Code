@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="17DDBC4DDE9E5AB19DF82CEBA32A3E7C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Common Language Components" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/MocCommon" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PanelCommon" Version="4.5.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.5.2.51305" Name="LabVIEW Communications System Design Suite" Version="2.0.1" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" InlineIntoCaller="True" Reentrancy="Stateless" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;Tests the stop notifier for elements. If so or the error wire indicates an error the stop indicator is enabled. Loops on host top level use the stop indicator for their loop teminate terminal.&lt;/p&gt;</p.UserDescription>
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="447" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="467" Left="[float]0" TemplateName="Green" Top="[float]0">
+					<Rectangle Fill="[SMSolidColorBrush]#ffa9af91" Id="468" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffeef8cd" Id="469" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="470" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]RT Startup Receive Notivication" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="471" />
+					</FileNameText>
+				</IconTemplate>
+				<Canvas Height="[float]34" Id="448" Left="[float]0" Margin="[SMThickness]3,3,3,3" Top="[float]0" Width="[float]34" />
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="75" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" ListViewHotspot="150 65" Parameter="461" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" ListViewHotspot="0 35" Parameter="39" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" ListViewHotspot="150 50" Parameter="40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" Top="[float]0">
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="361" IncludeInCapture="[bool]True" Label="[UIModel]368" Left="[float]107" Top="[float]170" Value="{DataItemBinding Id=39}" Width="[float]138" p4:ControlDefinitionChecksum="zmhsRUGWDTf2PX9vKcqFsw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="362" Label="[UIModel]363" Left="[float]5" MinHeight="[float]16" MinWidth="[float]16" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="363" LabelOwner="[UIModel]362" Left="[float]5" Text="[string]status" Top="[float]5" Width="[float]32" />
+				<NumericText Height="[float]22" Id="364" Label="[UIModel]365" Left="[float]50" MinHeight="[float]22" RadixVisibility="[SMVisibility]Visible" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="365" LabelOwner="[UIModel]364" Left="[float]50" Text="[string]code" Top="[float]5" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]80" Id="366" Label="[UIModel]367" Left="[float]5" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="367" LabelOwner="[UIModel]366" Left="[float]5" Text="[string]source" Top="[float]52" Width="[float]35" />
+				<p4:Label Height="[float]16" Id="368" IsVisualChild="[bool]False" LabelOwner="[UIModel]361" Left="[float]107" Text="[string]error in" Top="[float]147" Width="[float]39" />
+			</Cluster>
+			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="370" IncludeInCapture="[bool]True" Label="[UIModel]377" Left="[float]459" Top="[float]165" Value="{DataItemBinding Id=40}" Width="[float]138" p4:ControlDefinitionChecksum="zmhsRUGWDTf2PX9vKcqFsw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
+				<p4:p.TypeDefinitionTargets>
+					<p4:TypeDefinitionTarget TargetName="Error\.gtype:ControlDefinition" />
+				</p4:p.TypeDefinitionTargets>
+				<LVCheckBox Content="[string]" ContentVisibility="[Visibility]Collapsed" Height="[float]17" Id="371" IsReadOnly="[bool]True" Label="[UIModel]372" Left="[float]5" MinHeight="[float]16" MinWidth="[float]16" Top="[float]25" Value="{ClusterBinding FieldName=status}" Width="[float]19" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="372" LabelOwner="[UIModel]371" Left="[float]5" Text="[string]status" Top="[float]5" Width="[float]32" />
+				<NumericText Height="[float]22" Id="373" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]374" Left="[float]50" MinHeight="[float]22" RadixVisibility="[SMVisibility]Visible" Top="[float]25" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]LV:G6" ValueType="[Type]Int32" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="374" LabelOwner="[UIModel]373" Left="[float]50" Text="[string]code" Top="[float]5" Width="[float]26" />
+				<StringControl AcceptsReturn="[bool]True" Height="[float]80" Id="375" IsReadOnly="[bool]True" Label="[UIModel]376" Left="[float]5" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]120" WordWrap="[bool]True" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+				<p4:Label Height="[float]16" Id="376" LabelOwner="[UIModel]375" Left="[float]5" Text="[string]source" Top="[float]52" Width="[float]35" />
+				<p4:Label Height="[float]16" Id="377" IsVisualChild="[bool]False" LabelOwner="[UIModel]370" Left="[float]459" Text="[string]error out" Top="[float]142" Width="[float]47" />
+			</Cluster>
+			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="464" IsReadOnly="[bool]True" Left="[float]0" Name="[string]notification" Text="{DataItemBinding Id=461}" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="12">
+			<DataAccessor Bounds="1990 -31460 40 15" DataItem="39" Id="32" Label="36" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<DataAccessor Bounds="2485 -31480 40 15" DataItem="40" Id="33" Label="37" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="32" Bounds="1943 -31460 42 14" Id="36" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error in</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="33" Bounds="2530 -31480 50 14" Id="37" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>error out</p.Text>
+			</NodeLabel>
+			<ObtainNotifier Bounds="2260 -31490 40 40" Id="95" />
+			<ReleaseNotifier Bounds="2425 -31490 40 40" Id="96" />
+			<Wire Id="99" Joints="N(95:notifier out) N(294:notifier)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="100" Joints="N(95:error out) N(294:error in (no error\))" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="104" Joints="N(96:error out) h(10) v(-20) N(33:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="2248 -31480 12 10" DataType="String" Facade="DockedConstantFacade" Id="110" Label="119" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>""</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+				<DockedConstantFacade UndockedSize="39.5 15" />
+			</Literal>
+			<Wire Facade="WireInvisibleFacade" Id="111" Joints="N(110:Out) v(-185) N(95:element data type)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="2248 -31470 12 10" DataType="Boolean" Facade="DockedConstantFacade" Id="112" Label="120" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+				<DockedConstantFacade UndockedSize="26 15" />
+			</Literal>
+			<Wire Facade="WireInvisibleFacade" Id="113" Joints="N(112:Out) v(-185) N(95:create if not found?)" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="2338 -31480 12 10" DataType="Boolean" Facade="DockedConstantFacade" Id="114" Label="121" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>False</p.Data>
+				<BooleanBehavior />
+				<DockedConstantFacade UndockedSize="26 15" />
+			</Literal>
+			<Wire Facade="WireInvisibleFacade" Id="115" Joints="N(114:Out) v(-185) N(294:ignore previous (F\))" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="2338 -31470 12 10" DataType="Int32" Facade="DockedConstantFacade" Id="116" Label="122" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>0</p.Data>
+				<NumericBehavior Interpretation="Exact" ValueFormatter="LV:" />
+				<DockedConstantFacade UndockedSize="39.5 16" />
+			</Literal>
+			<Wire Facade="WireInvisibleFacade" Id="117" Joints="N(116:Out) v(-185) N(294:timeout in ms (-1\))" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="110" Bounds="2248 -31480 0 0" Id="119" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>name</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="112" Bounds="2248 -31470 0 0" Id="120" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>create if not found?</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="114" Bounds="2338 -31480 0 0" Id="121" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>ignore previous</p.Text>
+			</NodeLabel>
+			<NodeLabel AttachedTo="116" Bounds="2338 -31470 0 0" Id="122" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>timeout in ms</p.Text>
+			</NodeLabel>
+			<WaitOnNotificationWithNotifierHistory Bounds="2350 -31490 40 40" Id="294" />
+			<Wire Id="301" Joints="N(294:notifier out) N(96:notifier)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="302" Joints="N(294:error out) N(96:error in (no error\))" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="2485 -31430 40 15" DataItem="461" Id="463" Label="465" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="463" Bounds="2530 -31430 62 14" Id="465" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>notification</p.Text>
+			</NodeLabel>
+			<Wire Id="466" Joints="N(294:notification) h(10) v(50) N(463:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Literal Bounds="2050 -31495 147 15" DataType="String" Facade="NationalInstruments.MocCommon.SourceModel.IStringBehavior" Id="472" Label="479" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>%s:RT startup notifier</p.Data>
+				<StringBehavior TextDisplayMode="Default" />
+			</Literal>
+			<CallChain Bounds="2075 -31440 30 30" Id="473" />
+			<DeleteFromArray Bounds="2125 -31440 40 40" Id="474" Terminals="inArray=477, length (1), outArray, deleted=476, index0" />
+			<FormatIntoString Bounds="2190 -31480 40 40" Id="475" Terminals="formatString=478, errIn=480, outString=482, errOut=481, c0t0v=476" />
+			<Wire Id="476" Joints="N(474:deleted) h(15) v(-30) N(475:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="477" Joints="N(473:callchain) N(474:inArray)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="478" Joints="N(472:Out) h(18) N(475:formatString)" xmlns="http://www.ni.com/PlatformFramework" />
+			<NodeLabel AttachedTo="472" Bounds="2050 -31495 0 0" Id="479" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>name</p.Text>
+			</NodeLabel>
+			<Wire Id="480" Joints="N(32:Value) N(475:errIn)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="481" Joints="N(475:errOut) N(95:error in)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Wire Id="482" Joints="N(475:outString) h(5) v(-10) N(95:name)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" Top="[float]0" Width="[float]2000" />
+		<DataItem CallDirection="Input" CallIndex="0" DataType="Error" Id="39" Name="error in" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;%error in%&lt;/p&gt;</p.UserDescription>
+		</DataItem>
+		<DataItem CallDirection="Output" CallIndex="0" DataType="Error" Id="40" Name="error out" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>
+				<Cluster>
+					<Field1>False</Field1>
+					<Field2>0</Field2>
+					<Field3>""</Field3>
+				</Cluster>
+			</p.DefaultValue>
+			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+				<TypeDefinitionTarget TargetName="Error\.gtype" />
+			</p.TypeDefinitionTargets>
+			<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;%error out%&lt;/p&gt;</p.UserDescription>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="1" DataType="String" Id="461" Name="notification" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
