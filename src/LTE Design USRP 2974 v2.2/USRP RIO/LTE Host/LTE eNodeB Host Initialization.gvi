@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B5E9882DB71A7666B796DDF48EFA3F2C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="529D359F71894D59445B51F2CB13AE94" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW FPGA" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.FPGA" Version="4.5.0.49152" />
@@ -1734,6 +1734,9 @@
 			<NodeLabel AttachedTo="18965" Bounds="-488 -31680 0 0" Id="18967" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>Notification</p.Text>
 			</NodeLabel>
+			<Comment Bounds="-2225 -31700 105 15" Id="18968" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>NI API CHANGE</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="13" Left="[float]0" Top="[float]0" Width="[float]2000">
 			<StringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]22" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="6468" IsReadOnly="[bool]False" Label="[UIModel]6469" Left="[float]546" Text="{DataItemBinding Id=6465}" Top="[float]87" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]90" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />

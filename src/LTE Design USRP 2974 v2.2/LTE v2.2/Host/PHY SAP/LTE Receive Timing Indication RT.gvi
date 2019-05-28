@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3F5B99D3495CE4076ED89DD7847A6018" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="90FF28407F7F05BA03A38FC5F95BDDC4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW FPGA" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.FPGA" Version="4.5.0.49152" />
@@ -628,8 +628,14 @@
 							<NodeLabel AttachedTo="2165" Bounds="15 150 0 0" Id="2166" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 								<p.Text>input 0</p.Text>
 							</NodeLabel>
-							<Comment Bounds="90 25 73 15" Id="2168" xmlns="http://www.ni.com/MocCommon">
+							<Comment Bounds="145 40 73 15" Id="2168" xmlns="http://www.ni.com/MocCommon">
 								<p.Text>dirty Hack</p.Text>
+							</Comment>
+							<Comment Bounds="160 180 103 15" Id="2174" xmlns="http://www.ni.com/MocCommon">
+								<p.Text>NI API CHANGE</p.Text>
+							</Comment>
+							<Comment Bounds="65 20 103 15" Id="2177" xmlns="http://www.ni.com/MocCommon">
+								<p.Text>NI API CHANGE</p.Text>
 							</Comment>
 						</CaseStructure.Case>
 						<CaseStructure.Case Bounds="5 5 319 205" Id="441" Pattern="True">
@@ -799,6 +805,12 @@
 			<NodeLabel AttachedTo="2171" Bounds="-1220 -28200 139 14" Id="2173" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>DMA elements remaining</p.Text>
 			</NodeLabel>
+			<Comment Bounds="-1265 -28270 103 15" Id="2175" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>NI API CHANGE</p.Text>
+			</Comment>
+			<Comment Bounds="-1265 -28220 103 15" Id="2176" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>NI API CHANGE</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="282" IncludeInCapture="[bool]True" Label="[UIModel]289" Left="[float]428" Top="[float]155" Value="{DataItemBinding Id=55}" Width="[float]138" p4:ControlDefinitionChecksum="zmhsRUGWDTf2PX9vKcqFsw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="5A9E76E89EB622AA020B44BE62198136" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="17B41657A16310389B64BBB51788BA67" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Controls" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="4.5.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="4.5.2.51305" FeatureSetName="LabVIEW Virtual Instrument" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/LabVIEW.VI" Version="4.5.0.49156" />
@@ -634,11 +634,11 @@
 						<LoopTunnel Bounds="1125 280 22 10" Docking="Right" Id="1799" Terminals="o0=1800, i0=1423" />
 						<LoopTunnel Bounds="-2 230 22 10" Docking="Left" Id="5953" Terminals="o0=5954, i0=5952" />
 					</TimedLoop>
-					<Literal Bounds="135 90 42 16" DataType="Int32" Facade="NationalInstruments.MocCommon.SourceModel.INumericBehavior" Id="1121" Label="1122" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>150</p.Data>
+					<Literal Bounds="137.5 90 39.5 16" DataType="Int32" Facade="NationalInstruments.MocCommon.SourceModel.INumericBehavior" Id="1121" Label="1122" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>28</p.Data>
 						<NumericBehavior Interpretation="Exact" ValueFormatter="LV:G6" />
 					</Literal>
-					<NodeLabel AttachedTo="1121" Bounds="44 90 86 14" Id="1122" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="1121" Bounds="46.5 90 86 14" Id="1122" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>process priority</p.Text>
 					</NodeLabel>
 					<Wire Id="1234" Joints="N(1235:1142) N(937:error_in)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -670,10 +670,13 @@
 					<Comment Bounds="30 130 155 30" Id="5832" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 						<p.Text>"0..N-1\tmanual -2\tautomatic"</p.Text>
 					</Comment>
-					<Comment Bounds="25 40 170 45" Id="5834" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+					<Comment Bounds="25 5 170 45" Id="5834" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
 						<p.Text>"priority for MAC must be higher than 100, PHY SAP used priorities below 100\r\n"</p.Text>
 					</Comment>
 					<Wire Id="5954" Joints="N(5955:1142) N(5953:o0)" xmlns="http://www.ni.com/PlatformFramework" />
+					<Comment Bounds="70 70 105 15" Id="6359" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+						<p.Text>NI API CHANGE</p.Text>
+					</Comment>
 				</CaseStructure.Case>
 				<CaseStructure.Selector Bounds="-4 295 13 10" Docking="Left" Id="1143" Terminals="1140=5987, 1141, 1142" />
 				<CaseStructure.Tunnel Bounds="-4 270 13 10" Docking="Left" Id="1235" Terminals="1140=927, 1141=1242, 1142=1234" />
@@ -1131,6 +1134,12 @@
 				<p.Text>Notification</p.Text>
 			</NodeLabel>
 			<Wire Id="6356" Joints="N(6354:Out) N(6350:t)" xmlns="http://www.ni.com/PlatformFramework" />
+			<Comment Bounds="-3290 -28480 103 15" Id="6357" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>NI API CHANGE</p.Text>
+			</Comment>
+			<Comment Bounds="-1745 -28520 585 15" Id="6358" SizeToText="False" xmlns="http://www.ni.com/MocCommon">
+				<p.Text>NI API CHANGE</p.Text>
+			</Comment>
 		</BlockDiagram>
 		<CPFrontPanel Height="[float]1600" Id="14" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" Top="[float]0" Width="[float]2000">
 			<Cluster BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]165" Id="143" Label="[UIModel]150" Left="[float]780" Top="[float]246" Value="{DataItemBinding Id=94}" Width="[float]138" p4:ControlDefinitionChecksum="zmhsRUGWDTf2PX9vKcqFsw==" xmlns:p4="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/PanelCommon">
